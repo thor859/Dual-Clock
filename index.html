@@ -1,45 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Time Zone Display</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Dual Clock</title>
 </head>
 <body>
-    <div class="container">
-     
-
-        <div class="time-format-toggle">
-            <label class="switch">
-                <input type="checkbox" id="timeFormatToggle">
-                <span class="slider round"></span>
-            </label>
-            <span class="toggle-label">24 Hour Format</span>
-        </div>
-
-        <div class="time-boxes">
-            <div class="time-box abbottabad">
-                <h2>Abbottabad, Pakistan</h2>
-                <div class="date-display">
-                    <div class="date"></div>
-                    <div class="day"></div>
-                </div>
-                <div class="time"></div>
-                <div class="greeting"></div>
-            </div>
-
-            <div class="time-box texas">
-                <h2>Texas, USA (CST/CDT)</h2>
-                <div class="date-display">
-                    <div class="date"></div>
-                    <div class="day"></div>
-                </div>
-                <div class="time"></div>
-                <div class="greeting"></div>
-            </div>
-        </div>
+    <div>
+        <label for="toggle">12-hour format</label>
+        <input type="checkbox" id="toggle" />
+        <label for="toggle">24-hour format</label>
     </div>
-    <script src="script.js"></script>
+    <script>
+        // Your script goes here
+    </script>
 </body>
 </html>
